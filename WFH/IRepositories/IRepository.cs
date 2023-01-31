@@ -1,12 +1,13 @@
-﻿using WFH.Models;
+﻿using WFH.Interfaces;
+using WFH.Models;
 
 namespace WFH.IRepositories
 {
     public interface IRepository
     {
-        Task<IEnumerable<WFHDate>> GetWFHDates(int userId);
-        Task<WFHDate> AddWFHDates(int userId);
-        Task<WFHDate> UpdateWFHDates(int userId);
-        void DeleteWFHDates(int employeeId);
+        IWFHDateRepository WFHDate { get; }
+        IHolidayRepository Holiday { get; }
+        IUserRepository User { get; }
+        IPatternRepository Pattern { get; }
     }
 }

@@ -1,9 +1,11 @@
-﻿namespace WFH.Models;
+﻿using WFH.Enums;
 
-public sealed class Country
+namespace WFH.Models
 {
-    public string? Name { get; set; }
-    public enum CountryCode { GR, FR, GB, IT, US, FI, CH, CZ, PO }
-
-    public IEnumerable<Holiday>? TraditionalHolidays { get; set; }
+    public class Country
+    {
+        public string? Id { get; set; }
+        public string? Name { get; set; }
+        public CountryCode CountryCode { get; set; }
+    }
 }

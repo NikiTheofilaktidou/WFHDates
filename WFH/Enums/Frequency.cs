@@ -1,6 +1,6 @@
 ﻿namespace WFH.Enums
 {
-    public enum Freequency
+    public enum Frequency //how many WFH days per week
     {
         Once = 1,
         Twice,

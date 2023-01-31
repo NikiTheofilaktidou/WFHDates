@@ -211,11 +211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RnD_MainCollection\\WFH\\WFH\\WFH.csproj",
+      "projectUniqueName": "C:\\Users\\niki.theofilaktidou\\source\\repos\\WFHDates\\WFH\\WFH.csproj",
       "projectName": "WFH",
-      "projectPath": "C:\\RnD_MainCollection\\WFH\\WFH\\WFH.csproj",
+      "projectPath": "C:\\Users\\niki.theofilaktidou\\source\\repos\\WFHDates\\WFH\\WFH.csproj",
       "packagesPath": "C:\\Users\\niki.theofilaktidou\\.nuget\\packages\\",
-      "outputPath": "C:\\RnD_MainCollection\\WFH\\WFH\\obj\\",
+      "outputPath": "C:\\Users\\niki.theofilaktidou\\source\\repos\\WFHDates\\WFH\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

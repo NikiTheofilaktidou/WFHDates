@@ -2,7 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\WFH",
+    "\\WFH\\Controllers",
+    "\\WFH\\Interfaces",
+    "\\WFH\\IRepositories",
     "\\WFH\\Models"
   ],
+  "SelectedNode": "\\WFH\\IRepositories\\IRepository.cs",
   "PreviewInSolutionExplorer": false
 }

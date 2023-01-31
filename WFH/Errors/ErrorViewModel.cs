@@ -1,4 +1,4 @@
-namespace WFH.Models
+namespace WFH.Errors
 {
     public class ErrorViewModel
     {
