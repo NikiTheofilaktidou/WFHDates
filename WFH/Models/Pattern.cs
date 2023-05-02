@@ -1,4 +1,5 @@
-﻿using WFH.Enums;
+﻿using System.Collections.Generic;
+using WFH.Enums;
 
 namespace WFH.Models
 {
@@ -6,12 +7,17 @@ namespace WFH.Models
     {
         public string? Id { get; set; }
         public string? Name { get; set; }
-        public Dictionary<Frequency, Order>? Composition { get; set; }
+        public DateTime[]? Week1 { get; set; }
+        public DateTime[]? Week2 { get; set; }
+        public DateTime[]? Week3 { get; set; }
+        public DateTime[]? Week4 { get; set; }
     }
 
-    public enum Order //First or Second Week that 50%WFH should be applied
+    public enum Order //Week No
     {
         First=1, 
-        Second
+        Second,
+        Third,
+        Fourth
     }
 }
